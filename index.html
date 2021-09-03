@@ -9,9 +9,10 @@
       href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.13.0/devicon.min.css"
     />
     
+    
     <title>Guillaume Guerin</title>
-    <script type="module" crossorigin src="/assets/index.9a3420d9.js"></script>
-    <link rel="stylesheet" href="/assets/index.bfbf63ea.css">
+    <script type="module" crossorigin src="/assets/index.5849d3ab.js"></script>
+    <link rel="stylesheet" href="/assets/index.66664c43.css">
   </head>
 
   <body>
@@ -90,7 +91,9 @@
               <i class="devicon-css3-plain-wordmark"></i>
             </p>
             <div id="skillbar-container">
-              <div class="skills js"><p>90%</p></div>
+              <div class="skills js">
+                <p>90%</p>
+              </div>
             </div>
           </div>
           <div class="card">
@@ -101,7 +104,9 @@
               <i class="devicon-cplusplus-plain"></i>
             </p>
             <div id="skillbar-container">
-              <div class="skills c"><p>80%</p></div>
+              <div class="skills c">
+                <p>80%</p>
+              </div>
             </div>
           </div>
           <div class="card">
@@ -112,7 +117,9 @@
               <i class="devicon-mongodb-plain"></i>
             </p>
             <div id="skillbar-container">
-              <div class="skills sql"><p>75%</p></div>
+              <div class="skills sql">
+                <p>75%</p>
+              </div>
             </div>
           </div>
         </div>
@@ -120,25 +127,85 @@
       </section>
       <section id="project">
         <h1>Projects</h1>
-        <p class="smallproject">
+        <div id="slider-container-outer">
+          <div class="slider-control right show" style="opacity: 0">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+          <div class="slider-control left" style="opacity: 0">
+            <i class="fas fa-chevron-left"></i>
+          </div>
+          <div id="slider-container" class="slider-container-transition">
+            <div class="slider-item" data-position="1">
+              <div class="project-slider">
+                <h1>RocketStats</h1>
+              </div>
+            </div>
+            <div class="slider-item" data-position="2">
+              <div class="project-slider">
+                <h1>Homebridge Ledstrip BLE</h1>
+              </div>
+            </div>
+            <div class="slider-item" data-position="3">
+              <div class="project-slider">
+                <h1>Twitch% Integration</h1>
+              </div>
+            </div>
+            <div class="slider-item" data-position="4">
+              <div class="project-slider">
+                <h1>PB²TV Website</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <p class="smallproject">
           I also develop a lot of small projects, you can find everything on my
           GitHub repositories page
           <a href="https://github.com/Lyliya?tab=repositories" target="_blank"
             >here</a
           >
-        </p>
+        </p> -->
       </section>
-      <section id="work">
+      <!-- <section id="work">
         <h1>This is where i worked</h1>
-      </section>
+      </section> -->
       <section id="contact">
-        <h1>This is how to contact me</h1>
+        <div>
+          <h1 class="hello">Contact me</h1>
+          <p class="description">
+            Mail: gguerin45480@gmail.com
+            <br />
+            Phone: +33 6 12 78 05 93
+            <br />
+            Or by Malt for any freelance work
+          </p>
+          <div class="social">
+            <a target="_blank" href="mail:gguerin45480@gmail.com">
+              <i class="fas fa-envelope"></i>
+            </a>
+            <a
+              target="_blank"
+              href="https://www.malt.fr/profile/guillaumeguerin2"
+            >
+              <img src="/assets/malt.7873c94b.png" alt="" />
+            </a>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/guillaume-guerin/"
+            >
+              <i class="fab fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+        <div class="img-container">
+          <img class="about-img" src="/assets/programmer.be6a933b.png" alt="" />
+        </div>
       </section>
       <div id="go-top" style="opacity: 0">
         <i class="fas fa-chevron-up"></i>
       </div>
     </div>
     
+    <script src="./carrousel.js"></script>
     <script
       src="https://kit.fontawesome.com/e520b69233.js"
       crossorigin="anonymous"
