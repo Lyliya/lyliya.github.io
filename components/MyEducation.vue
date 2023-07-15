@@ -6,13 +6,15 @@ const educations: Experience[] = [
     title: "Epitech - Paris",
     date: "2016 - 2021",
     skills: ["C", "C++", "Javascript", "SQL"],
-    detail: "Detail",
+    detail:
+      "Software Engineer course to learn programming languages. C, C++, Python, Javascript, NodeJS, SQL, HTML, CSS",
   },
   {
     title: "Keimyung University - South Korea",
     date: "2019 - 2020",
     skills: ["Unity", "OpenGL", "Autodesk Maya"],
-    detail: "Detail",
+    detail:
+      "Course in Keimyung University to learn everything related to video game development. Unity, Unreal Engine, 3D modelisation using Blender and Maya and OpenGL. I also learn basic korean",
   },
 ];
 </script>
