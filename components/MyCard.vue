@@ -29,7 +29,7 @@ defineProps({
 <template>
   <div class="rounded">
     <div class="relative">
-      <img :src="image" alt="" class="rounded-t w-full h-48 object-cover" />
+      <nuxt-img :src="image" alt="" fit="cover" class="rounded-t w-full h-48" />
       <div class="absolute top-2 left-2 flex gap-2">
         <MyBadge v-for="skill in skills" :key="skill" :text="skill" />
       </div>

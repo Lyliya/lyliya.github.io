@@ -6,6 +6,7 @@ export default defineNuxtConfig({
     "@nuxtjs/i18n",
     "nuxt-headlessui",
     "nuxt-icon",
+    "@nuxt/image",
   ],
   app: {
     baseURL: "/",
