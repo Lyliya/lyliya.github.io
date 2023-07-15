@@ -27,7 +27,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="rounded border-2 border-gray-400 dark:border-white/25">
+  <div class="rounded">
     <div class="relative">
       <img :src="image" alt="" class="rounded-t w-full h-48 object-cover" />
       <div class="absolute top-2 left-2 flex gap-2">

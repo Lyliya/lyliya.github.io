@@ -96,16 +96,14 @@ const socials = [
       <div class="flex flex-col gap-1">
         <p>You can find or contact me on</p>
         <div class="flex flex-wrap gap-4">
-          <a
+          <MyLink
             v-for="social of socials"
             :key="social.title"
-            class="flex items-center gap-1 my-underline dark:hover:text-white hover:text-black transition-all border-b-2 border-b-black/20 hover:border-b-black dark:border-b-gray-200/30 dark:hover:border-b-gray-200"
             :href="social.link"
-            target="_blank"
           >
             <Icon :name="social.icon" :title="social.title" size="20px" />
             <span>{{ social.title }}</span>
-          </a>
+          </MyLink>
         </div>
       </div>
     </main>

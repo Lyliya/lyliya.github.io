@@ -32,12 +32,13 @@ useHead({
       <div
         class="flex flex-col justify-center items-start max-w-5xl w-full py-4 px-8 gap-8"
       >
-        <MyInfo id="me"></MyInfo>
+        <MyInfo id="me" />
         <div class="grid md:grid-cols-2">
-          <MyEducation id="education"></MyEducation>
-          <MyExperience id="experiences"></MyExperience>
+          <MyEducation id="education" />
+          <MyExperience id="experiences" />
         </div>
-        <MyProjects id="projects"></MyProjects>
+        <MyProjects id="projects" />
+        <AppFooter />
       </div>
     </div>
   </div>
@@ -46,7 +47,7 @@ useHead({
 <style>
 @font-face {
   font-family: montserrat;
-  src: url("./assets/Montserrat-VariableFont_wght.ttf");
+  src: url("/assets/Montserrat-VariableFont_wght.ttf");
 }
 
 html {

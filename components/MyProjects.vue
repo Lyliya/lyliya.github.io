@@ -4,7 +4,7 @@ const projects: Project[] = [
   {
     title: "RocketStats",
     body: "RocketStats is a Rocket League plugin working with bakkesmod, allowing you to display session information (MMR / Win and losses, streak) in game and/or in OBS. It was created with the help of Nusa, and it's now maintained by the community.",
-    image: "../assets/rocketstats.png",
+    image: "/rocketstats.png",
     actions: [
       {
         text: "Github",
@@ -22,7 +22,7 @@ const projects: Project[] = [
   {
     title: "Highlights",
     body: "Highlights allows you to fill idle moments of your streams with a compilation of your clips. Create entertainment during your start screen, during a hydration break or a scene setup.",
-    image: "../assets/highlights.png",
+    image: "/highlights.png",
     actions: [
       {
         text: "Website",
@@ -35,7 +35,7 @@ const projects: Project[] = [
   {
     title: "Homebridge Ledstrip BLE",
     body: "I am too lazy to move to the ledstrip button and too poor to buy one with Apple Homekit already included. So i made mine, using Homebridge, NodeJS and a bluetooth USB adapter. It allow me to control my ledstrips with my voice using Siri and the Homepod. It handle on/off, brightness and color.",
-    image: "../assets/led.jpg",
+    image: "/led.jpg",
     actions: [
       {
         text: "Github",
@@ -48,7 +48,7 @@ const projects: Project[] = [
   {
     title: "PB² Website",
     body: "This website regroup all twitch streams of the PB² group, a speedrun community i'm part of. You can see who is streaming and which game, watch their stream and interact with them. It also handle the 'Zapping', a compilation of our fun clips created during our streams. An admin panel allow us to manager those clips.",
-    image: "../assets/pb2website.png",
+    image: "/pb2website.png",
     actions: [
       {
         text: "Website",
@@ -61,7 +61,7 @@ const projects: Project[] = [
   {
     title: "48h du PB website",
     body: "This is a website for a speedrun community event called '48h du PB' where we, as a community, try to beat as many Personal Best or Word record as possible in a 48-hour period. This website help logging beaten times and twitch streams of the participants",
-    image: "../assets/48hpb.png",
+    image: "/48hpb.png",
     actions: [
       {
         text: "Website",
@@ -74,7 +74,7 @@ const projects: Project[] = [
   {
     title: "Portal Twitch%",
     body: "Portal Twitch% was my first NodeJS 'real project'. It's a Portal add-on created for speedrun marathon including twitch integration within the game. Viewer can vote for commands that are exectuded in the game, disturbing the runner. It was featured in many speedrun marathon (BLR, Speedons, ...)",
-    image: "../assets/portal.jpg",
+    image: "/portal.jpg",
     actions: [
       {
         text: "Video",
@@ -87,7 +87,7 @@ const projects: Project[] = [
   {
     title: "Portfolio",
     body: "This is the one you're reading right now. Kinda cool right ?",
-    image: "../assets/portfolio.png",
+    image: "/portfolio.png",
     actions: [],
     skills: ["Typescript", "VueJS", "Nuxt 3"],
   },
