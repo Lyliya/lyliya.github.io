@@ -23,13 +23,23 @@ defineProps({
     type: Array<string>,
     required: true,
   },
+  alt: {
+    type: String,
+    required: true,
+  },
 });
 </script>
 
 <template>
-  <div class="rounded">
+  <div class="rounded border-2 border-gray-400 dark:border-white/10">
     <div class="relative">
-      <nuxt-img :src="image" alt="" fit="cover" class="rounded-t w-full h-48" />
+      <nuxt-img
+        :src="image"
+        :alt="alt"
+        fit="cover"
+        format="webp"
+        class="rounded-t w-full h-48"
+      />
       <div class="absolute top-2 left-2 flex gap-2">
         <MyBadge v-for="skill in skills" :key="skill" :text="skill" />
       </div>

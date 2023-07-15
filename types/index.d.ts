@@ -18,6 +18,7 @@ interface Project {
   image: string;
   actions?: Action[];
   skills: string[];
+  alt: string;
 }
 
 export { Experience, Project, Action };
