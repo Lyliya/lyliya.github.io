@@ -4,10 +4,11 @@ useSeoMeta({
   description: "A passionate developer who love to learn new things.",
   ogTitle: "Guillaume Guerin",
   ogDescription: "A passionate developer who love to learn new things.",
-  ogImage: "/me.png",
+  ogImage: "/me.jpg",
+  ogUrl: "https://lyliya.github.io",
   twitterTitle: "Guillaume Guerin",
   twitterDescription: "A passionate developer who love to learn new things.",
-  twitterImage: "/me.png",
+  twitterImage: "/me.jpg",
   twitterCard: "summary",
 });
 
