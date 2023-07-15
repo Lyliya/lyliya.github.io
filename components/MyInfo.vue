@@ -100,6 +100,7 @@ const socials = [
             v-for="social of socials"
             :key="social.title"
             :href="social.link"
+            class="flex items-center gap-1"
           >
             <Icon :name="social.icon" :title="social.title" size="20px" />
             <span>{{ social.title }}</span>
