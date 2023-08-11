@@ -35,6 +35,20 @@ const projects: Project[] = [
     skills: ["NodeJS", "Vue 3", "Vuestic UI"],
   },
   {
+    title: "106% Website",
+    body: "106% is a charity gaming event against bullying organized on Twitch that helped raised 9315€ for Marion La Main Tendue.",
+    image: "/106pourcent.png",
+    alt: "106% website",
+    actions: [
+      {
+        text: "Website",
+        link: "https://106pourcent.fr/",
+        icon: "uil:external-link-alt",
+      },
+    ],
+    skills: ["Typescript", "Nuxt 3", "Tailwind"],
+  },
+  {
     title: "Homebridge Ledstrip BLE",
     body: "I am too lazy to move to the ledstrip button and too poor to buy one with Apple Homekit already included. So i made mine, using Homebridge, NodeJS and a bluetooth USB adapter. It allow me to control my ledstrips with my voice using Siri and the Homepod. It handle on/off, brightness and color.",
     image: "/led.jpg",
@@ -63,7 +77,7 @@ const projects: Project[] = [
     skills: ["HTML", "CSS", "Javascript"],
   },
   {
-    title: "48h du PB website",
+    title: "48h du PB Website",
     body: "This is a website for a speedrun community event called '48h du PB' where we, as a community, try to beat as many Personal Best or Word record as possible in a 48-hour period. This website help logging beaten times and twitch streams of the participants",
     image: "/48hpb.png",
     alt: "48h du pb website",
@@ -76,6 +90,7 @@ const projects: Project[] = [
     ],
     skills: ["Typescript", "Vue 3", "SQL", "Koa"],
   },
+
   {
     title: "Portal Twitch%",
     body: "Portal Twitch% was my first NodeJS 'real project'. It's a Portal add-on created for speedrun marathon including twitch integration within the game. Viewer can vote for commands that are exectuded in the game, disturbing the runner. It was featured in many speedrun marathon (BLR, Speedons, ...)",
@@ -95,7 +110,13 @@ const projects: Project[] = [
     body: "This is the one you're reading right now. Kinda cool right ?",
     image: "/portfolio.png",
     alt: "portfolio website",
-    actions: [],
+    actions: [
+      {
+        text: "Github",
+        link: "https://github.com/Lyliya/lyliya.github.io",
+        icon: "uil:github",
+      },
+    ],
     skills: ["Typescript", "VueJS", "Nuxt 3"],
   },
 ];
