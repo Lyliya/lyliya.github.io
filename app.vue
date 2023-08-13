@@ -52,11 +52,37 @@ useHead({
 }
 
 html {
-  @apply text-gray-700 dark:text-gray-200/75 bg-gray-200 dark:bg-[#050505] scroll-smooth;
+  @apply text-gray-700 bg-gray-200 scroll-smooth;
   font-family: montserrat;
+}
+
+html.dark {
+  color-scheme: dark;
+  @apply bg-[#050505] text-gray-200/75;
 }
 
 :target {
   @apply scroll-mt-20;
+}
+
+/**
+ * Credit to https://github.com/nuxt/devtools/blob/main/packages/devtools-ui-kit/src/assets/styles.css#L74
+ */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+::view-transition-old(root) {
+  z-index: 1;
+}
+::view-transition-new(root) {
+  z-index: 2147483646;
+}
+.dark::view-transition-old(root) {
+  z-index: 2147483646;
+}
+.dark::view-transition-new(root) {
+  z-index: 1;
 }
 </style>

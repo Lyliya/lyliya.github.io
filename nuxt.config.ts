@@ -7,8 +7,14 @@ export default defineNuxtConfig({
     "nuxt-headlessui",
     "nuxt-icon",
     "@nuxt/image",
+    "@nuxtjs/color-mode",
   ],
   app: {
     baseURL: "/",
+  },
+  colorMode: {
+    preference: "system",
+    classSuffix: "",
+    storageKey: "gg-color-theme",
   },
 });

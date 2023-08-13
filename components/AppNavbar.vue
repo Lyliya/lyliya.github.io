@@ -28,8 +28,8 @@ const items = [
 
     <!-- Desktop -->
     <div class="gap-4 hidden md:flex">
-      <nav class="">
-        <ul class="flex gap-4">
+      <nav>
+        <ul class="flex gap-4 items-center">
           <li v-for="item in items" :key="item.to">
             <a
               :href="item.to"
@@ -37,12 +37,24 @@ const items = [
               >{{ item.label }}</a
             >
           </li>
+          <li>
+            <MyDarkToggle v-slot="{ toggle, isDark }">
+              <button class="transition-all flex items-center" @click="toggle">
+                <Icon size="20" :name="isDark.value ? 'uil:sun' : 'uil:moon'" />
+              </button>
+            </MyDarkToggle>
+          </li>
         </ul>
       </nav>
     </div>
 
     <!-- Mobile -->
-    <div class="gap-4 flex md:hidden">
+    <div class="gap-2 flex md:hidden items-center">
+      <MyDarkToggle v-slot="{ toggle, isDark }">
+        <button class="transition-all px-4 py-4" @click="toggle">
+          <Icon size="20" :name="isDark.value ? 'uil:sun' : 'uil:moon'" />
+        </button>
+      </MyDarkToggle>
       <HeadlessMenu as="div" v-slot="{ open }">
         <HeadlessMenuButton as="button"
           ><Icon
