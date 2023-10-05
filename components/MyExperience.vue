@@ -50,6 +50,14 @@ const experiences: Experience[] = [
     detail:
       "Creation of a component library using VueJS, Typescript and Tailwind based on a new design system for Prestashop",
   },
+  {
+    title: "PlayPlay",
+    date: "2023 - present",
+    skills: ["NodeJS", "VueJS", "Typescript"],
+    link: "https://playplay.com/fr",
+    detail:
+      "Front-end developer to help improve user experiences creating videos",
+  },
 ];
 </script>
 

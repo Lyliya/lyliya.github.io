@@ -83,14 +83,15 @@ const socials = [
         to help them work on their
         <span class="dark:text-white dark:font-normal text-black font-semibold"
           >component library</span
-        >.
+        >. This opportunity was stopped shortly after.
       </p>
 
       <p>
-        This opportunity was stopped shortly after.
+        In october 2023, I joined
         <span class="dark:text-white dark:font-normal text-black font-semibold"
-          >I'm currently looking for a new job</span
-        >.
+          >Playplay</span
+        >
+        as a front-end developer.
       </p>
 
       <div class="flex flex-col gap-1">
